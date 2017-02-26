@@ -16,7 +16,7 @@ class EventPage extends React.Component {
         <Cell col={6} offsetDesktop={3} offsetTablet={1}>
           <Card className='width--full' shadow={2}>
             <CardTitle>
-              <h4 className='mdl-color-text--primary'>{event.date} - {event.title}</h4>
+              <h4 className='mdl-color-text--primary'>{event.title}</h4>
             </CardTitle>
             <CardText>
               <div className='event__details'>
@@ -89,6 +89,8 @@ class EventPage extends React.Component {
             <LocationPanel location={location} />
           </div>
         </Cell>
+
+        <br/>
       </Grid>
     );
   }

@@ -22,7 +22,7 @@ export default [
     title: 'An Introduction to PowerShell',
     link: 'an_introduction_to_powershell',
     location: 'accelerate_places_nottingham',
-    attachment: './attachments.zip',
+    // attachment: './attachments.zip',
     summary: `
 This workshop will introduce PowerShell to IT professionals and will cover the basic information required to be able to start writing PowerShell Scripts, Functions and Modules using PowerShell ISE and VS Code.
     `,
@@ -50,7 +50,7 @@ At the end of the workshop attendees can expect to feel comfortable with using P
       {
         name: 'Rob Sewell',
         avatar: '/images/speakers/rob-sewell.jpg',
-        quote: 'To be or not to be',
+        // quote: 'To be or not to be',
         bio: `
 Rob is a SQL Server DBA with a passion for Powershell, Azure, Automation, and SQL (PaaS geddit?). He is an officer for the PASS PowerShell Virtual Chapter and has spoken at and volunteered at many events. He is a member of the committee that organises SQL Saturday Exeter and also European PowerShell Conference. He is a proud supporter of the SQL and Powershell communities.
 

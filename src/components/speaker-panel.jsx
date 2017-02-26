@@ -14,15 +14,19 @@ class SpeakerPanel extends React.Component {
           <div className='speaker__name mdl-color-text--primary'>
             <h4>{speaker.name}</h4>
           </div>
+          <Spacer />
+          <i className='fa fa-microphone mdl-color-text--accent'></i>
         </CardTitle>
         <CardText>
           <div className='speaker__headline'>
             <div className='speaker__avatar'>
               <img src={speaker.avatar} className='speaker__avatar-img' />
             </div>
-            <div className='speaker__quote'>
-              {speaker.quote}
-            </div>
+            {!speaker.quote ? null : (
+              <div className='speaker__quote'>
+                {speaker.quote}
+              </div>
+            )}
           </div>
           {hideBio ? (null) : (
             <div className='speaker__bio justify'>
@@ -31,7 +35,6 @@ class SpeakerPanel extends React.Component {
           )}
         </CardText>
         <CardActions border className='speaker__links'>
-          <span className='marker mdl-color-text--accent'>[Speaker]</span>
           <div className="mdl-layout-spacer"></div>
           {Object.getOwnPropertyNames(speaker.links).map((p, ix) => (
             <LinkPanel key={ix} link={links[p]} value={speaker.links[p]} />

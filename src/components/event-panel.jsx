@@ -18,10 +18,15 @@ class EventPanel extends React.Component {
                   <img src={s.avatar} className='speaker__avatar-img' />
                 </div>
                 <h5 className='speaker__name'>{s.name}</h5>
-                <div className='speaker__quote'>{s.quote}</div>
+                {!s.quote ? null : (
+                  <div className='speaker__quote'>{s.quote}</div>
+                )}
               </div>
             ))}
-            <h4 className='mdl-color-text--primary'>{event.date} - {event.title}</h4>
+            <div className='mdl-color-text--primary'>
+              <h4>{event.title}</h4>
+              <h5>{event.date}</h5>
+            </div>
             <div className='event__summary justify'>
               <Markdown source={event.summary} />
             </div>
