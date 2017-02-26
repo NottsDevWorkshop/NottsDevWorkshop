@@ -85,6 +85,26 @@ class EventPage extends React.Component {
         ))}
 
         <Cell col={6} offsetDesktop={3} offsetTablet={1}>
+          <Card className='width--full'>
+            <CardTitle className='mdl-color-text--primary'>
+              <h4>Registration</h4>
+            </CardTitle>
+            <CardText>
+              <iframe src={`https://eventbrite.co.uk/tickets-external?eid=${event.links.eventbrite_id}&ref=etckt`}
+                      frameborder='0'
+                      height='300'
+                      width='100%'
+                      vspace='0'
+                      hspace='0'
+                      marginheight='5'
+                      marginwidth='5'
+                      scrolling='auto'
+                      allowtransparency='true'></iframe>
+            </CardText>
+          </Card>
+        </Cell>
+
+        <Cell col={6} offsetDesktop={3} offsetTablet={1}>
           <div className='event__location'>
             <LocationPanel location={location} />
           </div>

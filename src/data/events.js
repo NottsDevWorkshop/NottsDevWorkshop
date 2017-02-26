@@ -46,6 +46,9 @@ At the end of the workshop attendees can expect to feel comfortable with using P
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [PowerShell extension for Visual Studio Code](https://blogs.msdn.microsoft.com/cdndevs/2015/12/11/visual-studio-code-powershell-extension/)
     `,
+    links: {
+      eventbrite_id: 31581666615
+    },
     speakers: [
       {
         name: 'Rob Sewell',
