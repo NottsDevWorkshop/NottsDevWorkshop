@@ -17,7 +17,7 @@
 // -----------------------------------------------------------------------------
 export default [
   {
-    date: '2017-03-03',
+    date: '2017-03-06',
     time: '5:30pm',
     title: 'An Introduction to PowerShell',
     link: 'an_introduction_to_powershell',
