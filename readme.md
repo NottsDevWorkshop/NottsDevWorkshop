@@ -6,7 +6,7 @@ This repository contains the source code for the Notts Developer Workshop websit
 
 It's a React Web App that builds it's pages from JSON data.  What does that mean?  It will take a little longer to load, but will be super slick when you're running it.  TBH you probably wouldn't notice the load time.
 
-## Why are their two repositories?
+## Why are there two repositories?
 
 One contains the website `NottsDevWorkshop.github.io` and one contains the code `NottsDevWorkshop` for generating the website.
 
@@ -31,7 +31,7 @@ You're going to need to understand two things to do this:
     `git clone git@github.com:NottsDevWorkshop/NottsDevWorkshop.github.io.git`
 1. Upload speaker images to `src/images/speakers`.
 1. Edit the `src/data/events.js` file.
-1. Rebuild website `npm run dist`.
+1. Rebuild website `npm start`.
 1. Test the site with `npm run test-site`
 1. Copy the contents of the `dist/` directory into the root of the `NottsDevWorkshop.github.io` directory.
 1. Push the changes back into the repositories.
