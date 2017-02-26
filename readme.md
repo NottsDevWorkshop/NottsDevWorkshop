@@ -31,8 +31,8 @@ You're going to need to understand two things to do this:
     `git clone git@github.com:NottsDevWorkshop/NottsDevWorkshop.github.io.git`
 1. Upload speaker images to `src/images/speakers`.
 1. Edit the `src/data/events.js` file.
-1. Rebuild website `npm start`.
-1. Test the site with `npm run test-site`
+1. Test the site with `npm start`
+1. Rebuild website `npm run dist`.
 1. Copy the contents of the `dist/` directory into the root of the `NottsDevWorkshop.github.io` directory.
 1. Push the changes back into the repositories.
 1. Marvel at the beauty of it all.
