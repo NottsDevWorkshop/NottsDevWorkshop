@@ -24,6 +24,17 @@ export default [
       email: 'nomessing@rebelrecruitment.co.uk',
       twitter: 'rebelrecruit',
       linkedin: 'company/rebel-recruitment-ltd'
+    }    
+  },
+  {
+    name: 'Shadowland Consulting',
+    logo: 'images/sponsors/shadowland.png',
+    links: {
+      web: 'http://shadowlandconsulting.co.uk/',
+      telephone: '+44 (0)790 568 8278',
+      email: 'office@shadowlandconsulting.co.uk',
+      twitter: 'SHAConsultingUK',
+      facebook: 'ShadowlandConsulting'      
     }
   }
 ];
