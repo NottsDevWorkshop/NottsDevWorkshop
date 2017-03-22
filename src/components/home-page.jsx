@@ -34,6 +34,13 @@ class Homepage extends React.Component {
           </Cell>
         ))}
 
+        <Cell col={6} offsetDesktop={3} offsetTablet={1} className='info'>
+          <h5><a href="http://paulwallas.com/">Paul Wallas</a> is the lead UX Designer at Buying Butler. He has a great eye for detail and has lovingly designed our beautiful logo!</h5>
+        </Cell>
+
+        <Cell col={6} offsetDesktop={3} offsetTablet={1} className='info'>
+          <h5><a href="https://twitter.com/nomad3k/">Chris Kemp</a> has a wide range of experience in software, from development to management, community speaking, organiser of NottsJS and champion of the customer.</h5>
+        </Cell>
       </Grid>
     );
   }

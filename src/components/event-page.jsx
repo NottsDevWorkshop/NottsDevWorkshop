@@ -90,6 +90,17 @@ class EventPage extends React.Component {
               <h4>Registration</h4>
             </CardTitle>
             <CardText>
+              <a href={event.links.meetup}><h4>{event.links.title}</h4></a>
+            </CardText>
+          </Card>
+        </Cell>
+
+        {/*<Cell col={6} offsetDesktop={3} offsetTablet={1}>
+          <Card className='width--full'>
+            <CardTitle className='mdl-color-text--primary'>
+              <h4>Registration</h4>
+            </CardTitle>
+            <CardText>
               <iframe src={`https://eventbrite.co.uk/tickets-external?eid=${event.links.eventbrite_id}&ref=etckt`}
                       frameborder='0'
                       height='300'
@@ -102,7 +113,7 @@ class EventPage extends React.Component {
                       allowtransparency='true'></iframe>
             </CardText>
           </Card>
-        </Cell>
+        </Cell>*/}
 
         <Cell col={6} offsetDesktop={3} offsetTablet={1}>
           <div className='event__location'>

@@ -99,3 +99,13 @@
   top: 0;
   bottom: 0;
 }
+
+.info {
+  background: white;
+  color: rgb(76, 175, 80);
+}
+
+.info a{
+  color: rgb(255, 82, 82);
+  text-decoration: none;
+}

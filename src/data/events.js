@@ -16,38 +16,41 @@
 // 6. An event can have multiple speakers.
 // -----------------------------------------------------------------------------
 export default [
-   {
+ {
     date: '2017-04-05',
     time: '5:30pm',
     title: 'Introduction for Azure Services',
     link: 'introduction_for_azure_services',
     location: 'accelerate_places_nottingham',
     // attachment: './attachments.zip',
-//     summary: `
-// This workshop will introduce PowerShell to IT professionals and will cover the basic information required to be able to start writing PowerShell Scripts, Functions and Modules using PowerShell ISE and VS Code.
-//     `,
+    summary: `
+This workshop will introduce Azure Services.
+    `,
     description: `
 Azure Services. Amazon Web Services. Cloud Computing. In February we celebrate the 7th anniversary of Azure Services (formerly known as Windows Azure) actually called Microsoft Azure. Some of the use it daily. Some of us trying to pass some test of ‚how to use it‘. So let‘s talk about it. During workshop – as similar to the previous one by Rob, without slides – we will dive into azure services: databases, virtual network, machines (not only virtual), security, storage. All of the basics – but not limited to – stuff.  We will discuss a little about SWOT analysis, costs, pros, and cons, risk, fun, and joy of work with The Clouds. And of course, we use different tools and forms to work with the clouds like Pizza and Beer.
     `,
-    // what_you_will_need: `
-    // `,
-    // links: {
-    //   eventbrite_id: 31581666615
-    // },
+    what_you_will_need: `
+    `,
+    links: {
+      title: 'Introduction for Azure Services by Tobiasz Koprowski',
+      meetup: 'https://www.meetup.com/Notts-Dev-Workshop/events/238614798'
+    },
     speakers: [
       {
         name: 'Tobiasz Koprowski',
         avatar: '/images/speakers/tobiasz-koprowski.jpg',
         // quote: 'To be or not to be',
         bio: `
-        Community leader focused on SQL Server, SharePoint, security, collaboration, and ITIL, DR, BCM, SLA. Love licensing stuff. CEO at Shadowland Consulting. Microsoft Certified Trainer, freelancer, consultant. Member of the Boards: Polish Information Processing Society and ISSA Poland. Member of MTC, SME, Friends of RedGate PLUS. Member of PASS, SUGUK, PLSSUG, ISSA, ACM and several communities in the world. Data Platform MVP from July 2010. Former president of the Polish SQL Server User Group. Godfather of SQLDay Conference. An active blogger, international speaker. Co-author of SQL Server MVP Deep Dives Volume Two. STEM Ambassador. In free time traveler, cyclist, photographer. Coffee addicted.
-        `,
+  Tobiasz is a community leader focused on SQL Server, Sharepoint, security, collaboration and ITIL, DR, BCM, SLA. Love licensing stuff. CEO at Shadowland Consulting. Microsoft Certified Trainer, freelancer, consultant. Member of the Boards: Polish Information Processing Society and ISSA Poland. Member of MTC, SME, Friends of RedGate PLUS. Member of PASS, SUGUK, PLSSUG, ISSA, ACM and several communities in the world. Data Platform MVP from July 2010. Former president of the Polish SQL Server User Group. Godfather of SQLDay Conference. An active blogger, international speaker. Co-author of SQL Server MVP Deep Dives Volume Two. STEM Ambassador. In free time traveler, cyclist, photographer. Coffee addicted.
+     `,
         links: {
           web: '',
           facebook: 'koprowskit',
           twitter: 'koprowskit'
         }
-      },
+      }
+    ]
+  },
   {
     date: '2017-03-06',
     time: '5:30pm',
