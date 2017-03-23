@@ -28,7 +28,7 @@ export default [
   },
   {
     name: 'Shadowland Consulting',
-    logo: 'images/sponsors/shadowland.png',
+    logo: 'images/sponsors/Shadowland.png',
     links: {
       web: 'http://shadowlandconsulting.co.uk/',
       telephone: '+44 (0)790 568 8278',
