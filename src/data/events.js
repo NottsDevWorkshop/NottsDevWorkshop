@@ -19,17 +19,27 @@ export default [
  {
     date: '2017-04-05',
     time: '5:30pm',
-    title: 'Introduction for Azure Services',
-    link: 'introduction_for_azure_services',
+    title: 'Introduction to Azure Services',
+    link: 'introduction_to_azure_services',
     location: 'accelerate_places_nottingham',
     // attachment: './attachments.zip',
     summary: `
-This workshop will introduce Azure Services.
+This workshop will introduce you to Azure Services. You will let know about databases, virtual network, machines (not only virtual), security, storage... 
     `,
     description: `
-Azure Services. Amazon Web Services. Cloud Computing. In February we celebrate the 7th anniversary of Azure Services (formerly known as Windows Azure) actually called Microsoft Azure. Some of the use it daily. Some of us trying to pass some test of ‚how to use it‘. So let‘s talk about it. During workshop – as similar to the previous one by Rob, without slides – we will dive into azure services: databases, virtual network, machines (not only virtual), security, storage. All of the basics – but not limited to – stuff.  We will discuss a little about SWOT analysis, costs, pros, and cons, risk, fun, and joy of work with The Clouds. And of course, we use different tools and forms to work with the clouds like Pizza and Beer.
+Azure Services. Amazon Web Services. Cloud Computing. 
+In February we celebrate the 7th anniversary of Azure Services (formerly known as Windows Azure) 
+actually called Microsoft Azure. Some of the use it daily. Some of us trying to pass some test of 
+'how to use it'. So let‘s talk about it.
+During workshop – as similar to the previous one by Rob, without slides – we will dive into azure services: 
+databases, virtual network, machines (not only virtual), security, storage. 
+All of the basics – but not limited to – stuff.  
+We will discuss a little about SWOT analysis, costs, pros, and cons, risk, fun, and joy of work with The Clouds. 
+And of course, we use different tools and forms to work with the clouds like Pizza and Beer.
     `,
     what_you_will_need: `
+* If you want to play with the speaker than bring your laptop with any browser.. and azure subscription.
+* Otherwise just feel free to come and enjoy the talk.
     `,
     links: {
       title: 'Introduction for Azure Services by Tobiasz Koprowski',
@@ -44,8 +54,8 @@ Azure Services. Amazon Web Services. Cloud Computing. In February we celebrate t
   Tobiasz is a community leader focused on SQL Server, Sharepoint, security, collaboration and ITIL, DR, BCM, SLA. Love licensing stuff. CEO at Shadowland Consulting. Microsoft Certified Trainer, freelancer, consultant. Member of the Boards: Polish Information Processing Society and ISSA Poland. Member of MTC, SME, Friends of RedGate PLUS. Member of PASS, SUGUK, PLSSUG, ISSA, ACM and several communities in the world. Data Platform MVP from July 2010. Former president of the Polish SQL Server User Group. Godfather of SQLDay Conference. An active blogger, international speaker. Co-author of SQL Server MVP Deep Dives Volume Two. STEM Ambassador. In free time traveler, cyclist, photographer. Coffee addicted.
      `,
         links: {
-          web: '',
-          facebook: 'koprowskit',
+          web: 'http://koprowskit.eu/geek/',
+          facebook: 'tobiasz.koprowski',
           twitter: 'koprowskit'
         }
       }
