@@ -16,6 +16,67 @@
 // 6. An event can have multiple speakers.
 // -----------------------------------------------------------------------------
 export default [
+  {
+    date: '2017-05-02',
+    time: '5:30pm',
+    title: 'Azure Data Lake - The Services. The SQL. The Sharp. (Hands on Workshop)',
+    link: 'azure_data_lake',
+    location: 'accelerate_places_nottingham',
+    // attachment: './attachments.zip',
+    summary: `
+Do you know Azure Data Lake? Do you know USQL? If not than come to this workshop with your laptop to started developing data solution with Azure Data Lake! 
+    `,
+    description: `
+How do we implement Azure Data Lake?
+How does a lake fit into our data platform architecture? Is Data Lake going to run in isolation or be part of a larger pipeline?
+How do we use and work with USQL?
+Does size matter?!
+The answers to all these questions and more in this session as we immerse ourselves in the lake, that’s in a cloud.
+We'll take an end to end look at the components and understand why the compute and storage are separate services.
+For the developers, what tools should we be using and where should we deploy our USQL scripts. Also, what options are available for handling our C# code behind and supporting assemblies.
+We’ll cover everything you need to know to get started developing data solutions with Azure Data Lake.
+    `,
+    what_you_will_need: `
+·  Laptop
+
+·  Visual Studio with Azure SDK and Azure Data Lake Tools Both available out of the box in VS 2017 Community Edition!
+
+·  A Microsoft account.
+
+·  A love of data.
+    `,
+    links: {
+      title: 'Azure Data Lake by Paul Andrew and Alex Whittles',
+      meetup: 'https://www.meetup.com/Notts-Dev-Workshop/events/238644045/'
+    },
+    speakers: [
+      {
+        name: 'Paul Andrew',
+        avatar: '/images/speakers/Paul-Andrew.jpg',
+        // quote: 'To be or not to be',
+        bio: `
+  Paul has 10+ years’ experience working with the complete on premises SQL Server stack in a variety of roles and industries. Now as the senior developer at Purple Frog Systems has turned his keyboard to business intelligence solutions in the Microsoft cloud. Specialising in real-time data streaming with the internet of things (IoT), Azure Data Lake Analytics and Data Factory orchestration for big data platforms. Paul is also a STEM Ambassador for the networking education in schools’ programme, PASS chapter leader for the Microsoft Data Platform Group – Birmingham, SQL Relay/SQL Saturday speaker as well as very active member of the technical community.
+     `,
+        links: {
+          web: 'https://www.purplefrogsystems.com/paul/',
+          twitter: 'mrpaulandrew'
+        }
+      },
+      {
+        name: 'Alex Whittles',
+        avatar: '/images/speakers/alex-whittles.jpg',
+        // quote: 'To be or not to be',
+        bio: `
+  Alex is a Data Platform MVP, and is the owner and principle consultant at Purple Frog, a Microsoft Data Platform Business Intelligence consultancy in the UK with multinational clients in a variety of sectors. He specialises in all aspects of data modelling, data warehousing, ETL and cubes using the SQL Server stack. Alex has an MSc in Business Intelligence, is a chartered engineer, is on the organising committee for both SQLBits and SQL Relay, and co-leader of the Birmingham Data Platform user group. Alex is also a regular speaker at many SQL Server events around the world including SQL Relay, SQL Bits, SQL Saturdays, 24 HOP and the PASS Summit.
+     `,
+        links: {
+          web: 'https://www.purplefrogsystems.com/',
+          facebook: '758848337',
+          twitter: 'PurpleFrogAlex'
+        }
+      }
+    ]
+  },
  {
     date: '2017-04-05',
     time: '5:30pm',
