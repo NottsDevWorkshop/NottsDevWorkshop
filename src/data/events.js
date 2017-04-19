@@ -24,7 +24,7 @@ export default [
     location: 'accelerate_places_nottingham',
     // attachment: './attachments.zip',
     summary: `
-Do you know Azure Data Lake? Do you know USQL? If not than come to this workshop with your laptop to started developing data solution with Azure Data Lake! 
+Do you want to learn about Azure Data Lake and unlock the power of big data analytics with USQL? If so, then come to this workshop with your laptop to start developing data solutions with in the Microsoft cloud!
     `,
     description: `
 How do we implement Azure Data Lake?
