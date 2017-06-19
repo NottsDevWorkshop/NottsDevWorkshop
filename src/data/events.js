@@ -17,6 +17,53 @@
 // -----------------------------------------------------------------------------
 export default [
   {
+    date: '2017-07-03',
+    time: '5:30pm',
+    title: 'Introduction to SSAS Tabular Mode',
+    link: 'introduction_to_sass_tabular_mode',
+    location: 'accelerate_places_nottingham',
+    // attachment: './attachments.zip',
+    summary: `
+This workshop will introduce SASS Tabular Mode.
+    `,
+    description: `
+In this session, we will make first steps to get acquainted with SSAS Tabular. We, therefore, will answer the following questions:
+
+What is the purpose of SSAS Tabular?
+
+What are the differences to SSAS Multidimensional?
+
+How to get started with SSAS Tabular?
+
+What is DAX and do I need it?
+
+And what does SSAS Tabular offer for developers?
+
+The plan is to keep the theoretical part as short as possible and to play around with demos. If you want to try some of the stuff on your own, bring your notebook. You’ll need either a local version of SQL Server 2016 (Standard, Enterprise or Developer) or you can use Azure Analysis Services. 
+    `,
+    what_you_will_need: `
+* For PowerPivot example, you will need a version of Excel with the PowerPivot Add-in installed and activated.
+    `,
+    links: {
+      title: 'Introduction to SASS Tabular Mode by Gabi Münster',
+      meetup: 'https://www.meetup.com/Notts-Dev-Workshop/events/239010974/'
+    },
+    speakers: [
+      {
+        name: 'Gabi Münster',
+        avatar: '/images/speakers/gabi-muster.jpg',
+        // quote: 'To be or not to be',
+        bio: `Gabi Münster is a BI consultant at oh22data AG since 2010. With SQL Server experience since version 2000, her main topics are SSAS, SSRS and MDS. She is regional chapter lead at PASS Germany and speaker at national and international events since 2012.`
+        ,
+        links: {
+          // web: '',
+          facebook: 'gabi.munster',
+          twitter: 'SQLMissSunshine'
+        }
+      }
+    ]
+  },
+  {
     date: '2017-05-02',
     time: '5:30pm',
     title: 'Azure Data Lake - The Services. The SQL. The Sharp. (Hands on Workshop)',
