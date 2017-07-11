@@ -17,6 +17,48 @@
 // -----------------------------------------------------------------------------
 export default [
   {
+    date: '2017-08-04',
+    time: '5:30pm',
+    title: 'Getting started with DevOps',
+    link: 'getting_started_with_DevOps',
+    location: 'accelerate_places_nottingham',
+    // attachment: './attachments.zip',
+    summary: `
+    If you are looking at DevOps for your organisation, looking at implementing the best practices for your pipeline or just curious about DevOps in general this is the workshop for you!
+    `,
+    description: `DevOps is many things and there is no formal description or label for it. So why not putting a small application in the cloud and try out yourself what this means? We are going to go through the creation of a pipeline, the definition of your Infrastructure as Code, the packaging process and eventually the release. We are also going to approach more advanced practices like silent deployments, feature flags and the use of telemetry in your application.
+    `,
+    what_you_will_need: `
+* Laptop
+* [Visual Studio 2017](https://www.visualstudio.com/downloads/)
+* [Azure Tools for Visual Stuio](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio#install-workloads)
+* [Azure PowerShell](https://docs.microsoft.com/en-gb/powershell/azure/overview?view=azurermps-4.1.0)
+* [Azure Account](https://portal.azure.com)
+* [VSTS Account](https://app.vsaex.visualstudio.com/)
+    `,
+    links: {
+      title: 'Getting started with DevOps by Matteo Emilli',
+      meetup: 'https://www.meetup.com/Notts-Dev-Workshop/events/241604961/'
+    },
+    speakers: [
+      {
+        name: 'Matteo Emilli',
+        avatar: '/images/speakers/Matteo-Emilli.jpg',
+        //quote: 'To be or not to be',
+        bio: `Matteo Emili is a Microsoft MVP for Visual Studio and Development Technologies since 2010. Former Microsoft Student Partner (youngest ever in Italy and the first ever in being both MSP and MVP, in 2010 at the age of 19), his experience spreads from Universities, going through small businesses to the largest worldwide enterprises. 
+His focus on software engineering tied with business processes led him to have a deep knowledge of different topics and technologies, from development to virtualization, and he has a passion for Agile Methodologies, Processes and all the techie stuff around the code, which leads him to always searching for something new to share with the worldwide community around the Application Lifecycle Management and DevOps fields.
+He currently works for One Identity as an Application Lifecycle Management and DevOps advisor.
+`
+        ,
+        links: {
+          web: 'mattvsts.blogspot.com',
+          //facebook: '',
+          twitter: 'MattVSTS'
+        }
+      }
+    ]
+  },
+  {
     date: '2017-07-03',
     time: '5:30pm',
     title: 'Introduction to SSAS Tabular Mode',
@@ -53,7 +95,10 @@ The plan is to keep the theoretical part as short as possible and to play around
         name: 'Gabi Münster',
         avatar: '/images/speakers/gabi-muster.jpg',
         // quote: 'To be or not to be',
-        bio: `Gabi Münster is a BI consultant at oh22data AG since 2010. With SQL Server experience since version 2000, her main topics are SSAS, SSRS and MDS. She is regional chapter lead at PASS Germany and speaker at national and international events since 2012.`
+        bio: `
+          Gabi Münster is a BI consultant at oh22data AG since 2010. With SQL Server experience since version 2000, her main topics are SSAS, SSRS and MDS.
+          She is regional chapter lead at PASS Germany and speaker at national and international events since 2012.
+        `
         ,
         links: {
           // web: '',
