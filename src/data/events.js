@@ -16,6 +16,38 @@
 // 6. An event can have multiple speakers.
 // -----------------------------------------------------------------------------
 export default [
+  /*{
+    date: '',
+    time: '5:30pm',
+    title: '',
+    link: '',
+    location: 'accelerate_places_nottingham',
+    // attachment: './attachments.zip',
+    summary: `
+    `,
+    description: `
+    `,
+    what_you_will_need: `
+    `,
+    links: {
+      title: '',
+      meetup: ''
+    },
+    speakers: [
+      {
+        name: '',
+        avatar: '/images/speakers/',
+        quote: 'To be or not to be',
+        bio: ``
+        ,
+        links: {
+          web: '',
+          facebook: '',
+          twitter: ''
+        }
+      }
+    ]
+  },*/
   {
     date: '2017-08-04',
     time: '5:30pm',
@@ -23,8 +55,7 @@ export default [
     link: 'getting_started_with_DevOps',
     location: 'accelerate_places_nottingham',
     // attachment: './attachments.zip',
-    summary: `
-    If you are looking at DevOps for your organisation, looking at implementing the best practices for your pipeline or just curious about DevOps in general this is the workshop for you!
+    summary: `If you are looking at DevOps for your organisation, looking at implementing the best practices for your pipeline or just curious about DevOps in general this is the workshop for you!
     `,
     description: `DevOps is many things and there is no formal description or label for it. So why not putting a small application in the cloud and try out yourself what this means? We are going to go through the creation of a pipeline, the definition of your Infrastructure as Code, the packaging process and eventually the release. We are also going to approach more advanced practices like silent deployments, feature flags and the use of telemetry in your application.
     `,
@@ -96,9 +127,7 @@ The plan is to keep the theoretical part as short as possible and to play around
         avatar: '/images/speakers/gabi-muster.jpg',
         // quote: 'To be or not to be',
         bio: `
-          Gabi Münster is a BI consultant at oh22data AG since 2010. With SQL Server experience since version 2000, her main topics are SSAS, SSRS and MDS.
-          She is regional chapter lead at PASS Germany and speaker at national and international events since 2012.
-        `
+        Gabi Münster is a BI consultant at oh22data AG since 2010. With SQL Server experience since version 2000, her main topics are SSAS, SSRS and MDS. She is regional chapter lead at PASS Germany and speaker at national and international events since 2012.`
         ,
         links: {
           // web: '',
