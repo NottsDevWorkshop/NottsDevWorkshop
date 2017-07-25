@@ -53,7 +53,7 @@ export default [
     time: '5:30pm',
     title: 'Getting started with DevOps',
     link: 'getting_started_with_DevOps',
-    location: 'accelerate_places_nottingham',
+    location: 'hacker_space_nottingham',
     // attachment: './attachments.zip',
     summary: `If you are looking at DevOps for your organisation, looking at implementing the best practices for your pipeline or just curious about DevOps in general this is the workshop for you!
     `,
