@@ -57,8 +57,7 @@ export default [
     // attachment: './attachments.zip',
     summary: `We go through the stages of building two Alexa Skills using C# and AWS Lambda, showing how users can take advantage of them through an Amazon Dot.
     `,
-    description: `
-    With the rise in popularity of smart speakers in the home, we look at how to get our users to interact with our service through the Alexa assistant and an Amazon Dot.
+    description: `With the rise in popularity of smart speakers in the home, we look at how to get our users to interact with our service through the Alexa assistant and an Amazon Dot.
 In this session we'll walk through the building of two Alexa skills, discussing the underlying structures and adding functionality a piece at a time. 
 
 We'll be focusing on the important areas of skills development:
@@ -72,9 +71,8 @@ And we'll be deploying the skills through AWS Lambda, a serverless solution allo
 
     `,
     what_you_will_need: `
-    •	The demos will be in C#, so to write the skills alongside the demos developers will need Visual Studio - preferably with the AWS Toolkit for .NET installed (VS Community edition is free to download)
-•	To deploy the services developers will need an AWS account (an account can be set up for free at https://aws.amazon.com - we won't be doing anything that requires more than the free tier)
-
+•	The demos will be in C#, so to write the skills alongside the demos developers will need Visual Studio - preferably with the AWS Toolkit for .NET installed (VS Community edition is free to download)
+•	To deploy the services developers will need an AWS account (an account can be set up for free at [Amazon AWS](https://aws.amazon.com) - we won't be doing anything that requires more than the free tier)
     `,
     links: {
       title: 'Making conversation with Alexa',
