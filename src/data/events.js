@@ -49,6 +49,51 @@ export default [
     ]
   },*/
   {
+    date: '2017-09-07',
+    time: '5:30pm',
+    title: 'Making conversation with Alexa',
+    link: 'making_conversation_with_alexa',
+    location: 'hacker_space_nottingham',
+    // attachment: './attachments.zip',
+    summary: `We go through the stages of building two Alexa Skills using C# and AWS Lambda, showing how users can take advantage of them through an Amazon Dot.
+    `,
+    description: `
+    With the rise in popularity of smart speakers in the home, we look at how to get our users to interact with our service through the Alexa assistant and an Amazon Dot.
+In this session we'll walk through the building of two Alexa skills, discussing the underlying structures and adding functionality a piece at a time. 
+
+We'll be focusing on the important areas of skills development:
+
+•	The different ways Alexa can talk to us 
+•	How we can make her pay attention to what we're saying
+•	Authenticating our users to allow personalisation
+•	How conversations require us to think about user interaction in a different way.
+
+And we'll be deploying the skills through AWS Lambda, a serverless solution allowing us to get start quickly and not get too sidetracked on deployment.
+
+    `,
+    what_you_will_need: `
+    •	The demos will be in C#, so to write the skills alongside the demos developers will need Visual Studio - preferably with the AWS Toolkit for .NET installed (VS Community edition is free to download)
+•	To deploy the services developers will need an AWS account (an account can be set up for free at https://aws.amazon.com - we won't be doing anything that requires more than the free tier)
+
+    `,
+    links: {
+      title: 'Making conversation with Alexa',
+      meetup: 'https://www.meetup.com/Notts-Dev-Workshop/events/242790675/'
+    },
+    speakers: [
+      {
+        name: 'Steven Pears',
+        avatar: '/images/speakers/steven_pears.jpg',
+        //quote: 'To be or not to be',
+        bio: `Steven has been enjoying .NET since the beta landed on his desk next to his folder full of MSDN CDs. Somehow maintaining gainful employment while at the same time loving regular expressions, local newspaper companies and construction software have created a path that led him to Nottingham where he now works for Experian.`
+        ,
+        links: {
+          twitter: 'StevenPears'
+        }
+      }
+    ]
+  },
+  {
     date: '2017-08-04',
     time: '5:30pm',
     title: 'Getting started with DevOps',
