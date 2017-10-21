@@ -48,38 +48,52 @@ export default [
       }
     ]
   },*/
-  /*{
-    date: '',
-    time: '5:30pm',
-    title: '',
-    link: '',
-    location: 'accelerate_places_nottingham',
+  {
+    date: '2017-11-07',
+    time: '6:00pm',
+    title: 'Introduction to the SharePoint Framework',
+    link: 'sharepoint_framework',
+    location: 'unidays_nottingham',
     // attachment: './attachments.zip',
-    summary: `
+    summary: ` Modern web development on SharePoint? Why not!
+    Come to this workshop to find more information about how to create web parts and extensions for SharePoint Online. See how the SharePoint world changed and how being a SharePoint developer is fun now!
     `,
     description: `
+    Modern web development on SharePoint? Why not!
+    Come to this workshop to find more information about how to create web parts and extensions for SharePoint Online. See how the SharePoint world changed and how being a SharePoint developer is fun now!
+
+    In this session, you will learn what the SharePoint Framework is, how to develop your first web part and extension and how to deploy it on SharePoint.
     `,
     what_you_will_need: `
+    ·  Your computer (Mac, Windows, Linux)
+    ·  IDE for JavaScript (like Visual Studio Code)
+    ·  Installed components:
+    o  node.js
+    o  bower (npm install -g bower)
+    o  Yeomen (npm install -g yo)
+    o  TypeScript (npm install -g tsd)
+    o  Gulp (npm install -g gulp-cli)
+    o  SharePoint Generator: (npm i @microsoft/generator-sharepoint)
+    ·  SharePoint Online subscription (you can get one free from dev.office.com)
     `,
     links: {
-      title: '',
-      meetup: ''
+      title: 'Introduction to the SharePoint Framework',
+      meetup: 'https://www.meetup.com/Notts-Dev-Workshop/events/244087744/'
     },
     speakers: [
       {
-        name: '',
-        avatar: '/images/speakers/',
-        quote: 'To be or not to be',
-        bio: ``
+        name: 'Gosia Borzecka',
+        avatar: '/images/speakers/Gosia-Borzecka.jpg',
+        bio: `Gosia Borzecka works as a full stack .NET developer. While searching for her path, she has been working as a network administrator and IT systems supervisor according to Prince2 and ITIL methodologies. Currently, she loves programming and looking for news related to it, to which she devotes most of her time. While she started work with Office 365 and SharePoint she found an opportunity to add more fun to existing business apps using the newest technology provided by Microsoft.  After work, she teaching kids programming and co-organizing workshop meetup:  NottsDevWorkshop!`
         ,
         links: {
-          web: '',
-          facebook: '',
-          twitter: ''
+          web: 'http://gosiaborzecka.net',
+          facebook: 'gosia.borzecka',
+          twitter: 'gosiaborzecka'
         }
       }
     ]
-  },*/
+  },
   {
     date: '2017-10-03',
     time: '5:30pm',
