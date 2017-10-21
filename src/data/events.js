@@ -48,6 +48,76 @@ export default [
       }
     ]
   },*/
+  /*{
+    date: '',
+    time: '5:30pm',
+    title: '',
+    link: '',
+    location: 'accelerate_places_nottingham',
+    // attachment: './attachments.zip',
+    summary: `
+    `,
+    description: `
+    `,
+    what_you_will_need: `
+    `,
+    links: {
+      title: '',
+      meetup: ''
+    },
+    speakers: [
+      {
+        name: '',
+        avatar: '/images/speakers/',
+        quote: 'To be or not to be',
+        bio: ``
+        ,
+        links: {
+          web: '',
+          facebook: '',
+          twitter: ''
+        }
+      }
+    ]
+  },*/
+  {
+    date: '2017-10-03',
+    time: '5:30pm',
+    title: 'ChatBots',
+    link: 'chatbots',
+    location: 'unidays_nottingham',
+    // attachment: './attachments.zip',
+    summary: ` Join us with our guest speaker Manthan Dave with his talk:
+    "Up and running with chat bots: A journey from being a noob to being awesome"
+    `,
+    description: ` The chat bot revolution is upon us and every developer wants to build one. This workshop will take them on an epic journey starting from basics and writing a simple chat bot, all the way to learning advanced concepts.
+    Ever wondered what goes behind a good chat bot? Do you want to build one? Well this workshop is for you!
+    Complexity can be diffused as soon as you peek behind the curtain. A chat bot, like a website might look complex from the outside, but the reality is different.
+    This workshop will be divided into three sections. The first section will cover the basic anatomy of a chat bot. Next, we'll work together to build a chat bot. We'll start simple with a chat bot that'll tell us knock knock and chuck norris jokes. Towards the end of the workshop, we'll go over some advanced concepts that can help us scale our chat bot to have more features.
+    `,
+    what_you_will_need: `
+    * Git
+    * Node.js
+    * npm
+    `,
+    links: {
+      title: 'ChatBot',
+      meetup: 'https://www.meetup.com/Notts-Dev-Workshop/events/243014116/'
+    },
+    speakers: [
+      {
+        name: 'Manthan Dave',
+        avatar: '/images/speakers/Manthan-Dave.jpg',
+        bio: `Manthan Dave like drones, robots and tech in general. He make awesome things. Bit by bit.
+        "I have mostly been a full stack / backend engineer throughout my career. As of now, I am a Principal Associate Software Engineer (SDE III) at Capital One. I have been looking into chat bots since I graduated however, at the time, there was never a guide or a straight up book on it. So after a million failures, I was finally able to put together a framework that allows people to easily build chat bots. This framework is Talkify and is available on github at https://github.com/manthanhd/talkify. The framework encapsulates the concepts and theories that I have learned and put together over time. I believe that these concepts are transferrable across any language or even frameworks. I am continually working on talkify to make it better all the time as I encounter more problems. As part of my day job, I am also working on a secondary project involving chat bots.`
+        ,
+        links: {
+          web: 'https://www.manthanhd.com/',
+          twitter: 'davemanthan'
+        }
+      }
+    ]
+  },
   {
     date: '2017-09-07',
     time: '5:30pm',
@@ -58,11 +128,11 @@ export default [
     summary: `We go through the stages of building two Alexa Skills using C# and AWS Lambda, showing how users can take advantage of them through an Amazon Dot.
     `,
     description: `With the rise in popularity of smart speakers in the home, we look at how to get our users to interact with our service through the Alexa assistant and an Amazon Dot.
-In this session we'll walk through the building of two Alexa skills, discussing the underlying structures and adding functionality a piece at a time. 
+In this session we'll walk through the building of two Alexa skills, discussing the underlying structures and adding functionality a piece at a time.
 
 We'll be focusing on the important areas of skills development:
 
-•	The different ways Alexa can talk to us 
+•	The different ways Alexa can talk to us
 •	How we can make her pay attention to what we're saying
 •	Authenticating our users to allow personalisation
 •	How conversations require us to think about user interaction in a different way.
@@ -119,7 +189,7 @@ And we'll be deploying the skills through AWS Lambda, a serverless solution allo
         name: 'Matteo Emilli',
         avatar: '/images/speakers/Matteo-Emilli.jpg',
         //quote: 'To be or not to be',
-        bio: `Matteo Emili is a Microsoft MVP for Visual Studio and Development Technologies since 2010. Former Microsoft Student Partner (youngest ever in Italy and the first ever in being both MSP and MVP, in 2010 at the age of 19), his experience spreads from Universities, going through small businesses to the largest worldwide enterprises. 
+        bio: `Matteo Emili is a Microsoft MVP for Visual Studio and Development Technologies since 2010. Former Microsoft Student Partner (youngest ever in Italy and the first ever in being both MSP and MVP, in 2010 at the age of 19), his experience spreads from Universities, going through small businesses to the largest worldwide enterprises.
 His focus on software engineering tied with business processes led him to have a deep knowledge of different topics and technologies, from development to virtualization, and he has a passion for Agile Methodologies, Processes and all the techie stuff around the code, which leads him to always searching for something new to share with the worldwide community around the Application Lifecycle Management and DevOps fields.
 He currently works for One Identity as an Application Lifecycle Management and DevOps advisor.
 `
@@ -249,17 +319,17 @@ We’ll cover everything you need to know to get started developing data solutio
     location: 'accelerate_places_nottingham',
     // attachment: './attachments.zip',
     summary: `
-This workshop will introduce you to Azure Services. You will let know about databases, virtual network, machines (not only virtual), security, storage... 
+This workshop will introduce you to Azure Services. You will let know about databases, virtual network, machines (not only virtual), security, storage...
     `,
     description: `
-Azure Services. Amazon Web Services. Cloud Computing. 
-In February we celebrate the 7th anniversary of Azure Services (formerly known as Windows Azure) 
-actually called Microsoft Azure. Some of the use it daily. Some of us trying to pass some test of 
+Azure Services. Amazon Web Services. Cloud Computing.
+In February we celebrate the 7th anniversary of Azure Services (formerly known as Windows Azure)
+actually called Microsoft Azure. Some of the use it daily. Some of us trying to pass some test of
 'how to use it'. So let‘s talk about it.
-During workshop – as similar to the previous one by Rob, without slides – we will dive into azure services: 
-databases, virtual network, machines (not only virtual), security, storage. 
-All of the basics – but not limited to – stuff.  
-We will discuss a little about SWOT analysis, costs, pros, and cons, risk, fun, and joy of work with The Clouds. 
+During workshop – as similar to the previous one by Rob, without slides – we will dive into azure services:
+databases, virtual network, machines (not only virtual), security, storage.
+All of the basics – but not limited to – stuff. 
+We will discuss a little about SWOT analysis, costs, pros, and cons, risk, fun, and joy of work with The Clouds.
 And of course, we use different tools and forms to work with the clouds like Pizza and Beer.
     `,
     what_you_will_need: `
