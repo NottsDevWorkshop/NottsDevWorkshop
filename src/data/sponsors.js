@@ -35,16 +35,41 @@ export default [
       facebook: 'unidays'
     }
   },
-  // {
-  //   name: '',
-  //   log: '',
-  //   links: {
-  //     web: '',
-  //     email: '',
-  //     telephone: '',
-  //     twitter: '',
-  //     facebook: '',
-  //     linkedin: ''
-  //   }
-  // }
-];
+  {
+    name: '.Net Foundation',
+    logo: 'images/sponsors/DotNetFoundation.png',
+    links: {
+      web: 'https://dotnetfoundation.org/',
+      twitter: 'dotnetfdn'
+    }
+  },
+  {
+    name: 'JetBrains',
+    logo: 'images/sponsors/JetBrains.png',
+    links: {
+      web: 'https://www.jetbrains.com/',
+      facebook: 'JetBrains',
+      linkedin: 'company/jetbrains',
+      twitter: 'jetbrains'
+      }
+    },
+    {
+      name: 'OzCode',
+      logo: 'images/sponsors/OzCode.png',
+      links: {
+        web: 'https://www.oz-code.com/',
+        twitter: 'oz_code',
+        facebook: 'oz.code.software',
+        linkedin: 'company/ozcode'
+      }
+    },
+    {
+      name: 'Apress',
+      logo: 'images/sponsors/Apress.jpg',
+      links: {
+        web: 'http://www.apress.com/gb/',
+        facebook: 'ApressMedia',
+        twitter: 'apress'
+      }
+    }
+  ];
