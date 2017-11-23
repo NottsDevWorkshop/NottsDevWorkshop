@@ -4,18 +4,6 @@
 
 export default [
   {
-    name: 'Accelerate Places',
-    logo: '/images/sponsors/accelerate-places.png',
-    links: {
-      web: 'http://accelerateplaces.com/',
-      telephone: '+44 (0)115 795 0141',
-      facebook: 'acceleratenttm',
-      twitter: 'AccelerateNttm',
-      instagram: 'accelerateplaces',
-      linkedin: 'in/acceleratehub'
-    }
-  },
-  {
     name: 'Rebel Recruitment',
     logo: '/images/sponsors/rebel.png',
     links: {
@@ -24,7 +12,7 @@ export default [
       email: 'nomessing@rebelrecruitment.co.uk',
       twitter: 'rebelrecruit',
       linkedin: 'company/rebel-recruitment-ltd'
-    }    
+    }
   },
   {
     name: 'Shadowland Consulting',
@@ -34,7 +22,29 @@ export default [
       telephone: '+44 (0)790 568 8278',
       email: 'office@shadowlandconsulting.co.uk',
       twitter: 'SHAConsultingUK',
-      facebook: 'ShadowlandConsulting'      
+      facebook: 'ShadowlandConsulting'
     }
-  }
+  },
+  {
+    name: 'UNiDAYS',
+    logo: 'images/sponsors/unidays.png',
+    links: {
+      web: 'https://www.myunidays.com/',
+      email: 'press.office@myunidays.com',
+      twitter: 'MyUNiDAYS',
+      facebook: 'unidays'
+    }
+  },
+  // {
+  //   name: '',
+  //   log: '',
+  //   links: {
+  //     web: '',
+  //     email: '',
+  //     telephone: '',
+  //     twitter: '',
+  //     facebook: '',
+  //     linkedin: ''
+  //   }
+  // }
 ];
