@@ -49,6 +49,40 @@ export default [
     ]
   },*/
   {
+    date: '2017-12-05',
+    time: '5:30pm',
+    title: 'I Want It Now!: Provisioning SQL Server Containers',
+    link: 'sqlserver_containers',
+    location: 'unidays_nottingham',
+    // attachment: './attachments.zip',
+    summary: ` Developers need a copy of the production database, and they need it now! How do you get a database with production-like data to them quickly and easily?
+    `,
+    description: `  Your developers need a copy of the production database, and they need it now! How do you keep up with the shift towards agile development? VMs are a good solution, but we can make environments easier to manage, smaller, and cheaper with containers. Containers let you run SQL Server in an isolated, lightweight environment but working with them can be tricky. In this session I'll explain the different types of containers available for SQL Server, why some options are better than others, and why they're worth considering. We’ll spin up some instances of SQL Server using Docker and Windocks and talk about the advantages and limitations of containerising SQL Server.
+    `,
+    what_you_will_need: ` Windows 10 is required for Docker, plus the docker client. Docker requires Hyper-v be enabled, at least for startup. I’ll also provide a VM that we can use to look at Windocks, a Windows-only container solution
+    `,
+    links: {
+      title: 'I Want It Now!: Provisioning SQL Server Containers',
+      meetup: 'https://www.meetup.com/Notts-Dev-Workshop/events/mkmsrnywqbhb/'
+    },
+    speakers: [
+      {
+        name: 'Neil Holmes',
+        avatar: '/images/speakers/neil-holmes.jpg',
+        // quote: 'To be or not to be',
+        bio: `Neil has been a DBA for about 8 years now, working in varied environments.
+          He's the Senior DBA for Rascal Systems based in Nottingham, and currently sits in the middle of a DevOps development team, and has not yet been murdered by them.
+        `
+        ,
+        links: {
+          web: 'http://withrecovery.com',
+          twitter: 'Nullh',
+          linkedin: 'in/nullh/'
+        }
+      }
+    ]
+  },
+  {
     date: '2017-11-07',
     time: '6:00pm',
     title: 'Introduction to the SharePoint Framework',
