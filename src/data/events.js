@@ -16,18 +16,32 @@
 // 6. An event can have multiple speakers.
 // -----------------------------------------------------------------------------
 export default [
-  /*{
-    date: '',
-    time: '5:30pm',
-    title: '',
-    link: '',
-    location: 'accelerate_places_nottingham',
+  {
+    date: '2017-02-06',
+    time: '6:00pm',
+    title: 'Azure IoT Hubs, Raspberry Pi and Node.js',
+    link: 'azur-iot-raspberry-pi',
+    location: 'unidays_nottingham',
     // attachment: './attachments.zip',
-    summary: `
+    summary: `Have you got a Raspberry Pi lying around feeling all sad and unloved in its box on its own? Are you interested in learning some really basic electronics?  Come along to this workshop and learn a little bit about one potential use for your lonely Raspberry Pi, with Azure IoT Hubs and Node.js.
     `,
-    description: `
+    description: ` We’ll then move on to assembling a really basic circuit containing a switch, some LED’s and a Simulated Temperature / Humidity Sensor which we’ll be controlling from the Raspberry Pi using NodeJS… Finally we’ll be stepping up a level and connecting the whole thing to an Azure Event Hub and getting Messaging working between the two.
+        All hardware except a real Temperature Sensor will be available to use on the evening and already setup for you when you arrive. However, we do only have 7 kits available, so you're likely to need to share upto 1 kit between 3 people!
     `,
-    what_you_will_need: `
+    what_you_will_need: `* An Azure account with a small amount of credit – If you don’t have one, sign up to Visual Studio Dev Essentials here, which will give you £20 of credit per month to play with; [http://bit.ly/nottsdevvsessentials](http://bit.ly/nottsdevvsessentials)
+* Visual Studio Code installed - [http://bit.ly/nottsdevvscode](http://bit.ly/nottsdevvscode)
+* An SSH Client such as PuTTY - [http://bit.ly/nottsdevputty](http://bit.ly/nottsdevputty)
+* The Azure IoT Device Explorer Twin - http://bit.ly/nottsdevdevexplorer
+* A laptop with an ethernet Socket, or a 2in1 device with a network adapter.
+* If you want to play along with a real Temperature / Humidity Sensor Section, then you can order one from Amazon, it’s only £8!) - [http://bit.ly/nottsdevtempsensor](http://bit.ly/nottsdevtempsensor)
+* If you want to bring your own parts so you can take them home and carry on playing, then you can buy the following from Amazon too;
+  * This relatively inexpensive kit of electronic parts which will easily include enough for the evening - [http://bit.ly/nottsdeviotkit](http://bit.ly/nottsdeviotkit)
+  * A Raspberry Pi kit including; A Raspberry Pi 3, A Memory Card, A Case and a Power Supply - [http://bit.ly/nottsdeviotraspi](http://bit.ly/nottsdeviotraspi)
+* Your glasses if you struggle seeing small parts (for the electronics)!
+
+You’re more than welcome to bring your own Raspberry Pi along, however, we won’t have much time to get this setup during the workshop, as this can take a little while. I’m hoping to publish a Blog Post detailing the setup steps required however, so keep your eyes peeled!
+
+Please note. Neither the speaker nor Notts Dev Workshop are responsible for any damage to any components or hardware you may bring along.
     `,
     links: {
       title: '',
@@ -35,22 +49,24 @@ export default [
     },
     speakers: [
       {
-        name: '',
-        avatar: '/images/speakers/',
-        quote: 'To be or not to be',
-        bio: ``
+        name: 'Peter Gallagher',
+        avatar: '/images/speakers/Peter-Gallagher.jpg',
+        // quote: 'To be or not to be',
+        bio: ` Pete is Co-Organiser of Notts Dev Workshop and the owner of PJG Creations – A Software and IT consultancy based in Loughborough. Pete has experience of .net Desktop, Web Development in ASP, PHP and Javascript and even dabbles in a little Assembly Language from time to time!
+        `
         ,
         links: {
-          web: '',
-          facebook: '',
-          twitter: ''
+          web: 'www.pjgcreations.co.uk',
+          facebook: 'PJGCreations',
+          twitter: 'PJGCreations',
+          linkedin: 'in/pjgcreations/'
         }
       }
     ]
-  },*/
+  },
   {
     date: '2017-12-05',
-    time: '5:30pm',
+    time: '6:00pm',
     title: 'I Want It Now!: Provisioning SQL Server Containers',
     link: 'sqlserver_containers',
     location: 'unidays_nottingham',
