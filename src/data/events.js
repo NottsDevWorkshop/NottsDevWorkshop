@@ -44,8 +44,8 @@ You’re more than welcome to bring your own Raspberry Pi along, however, we won
 Please note. Neither the speaker nor Notts Dev Workshop are responsible for any damage to any components or hardware you may bring along.
     `,
     links: {
-      title: '',
-      meetup: ''
+      title: 'Azure IoT Hubs, Raspberry Pi and Node.js',
+      meetup: 'https://www.meetup.com/Notts-Dev-Workshop/events/246681717/'
     },
     speakers: [
       {
