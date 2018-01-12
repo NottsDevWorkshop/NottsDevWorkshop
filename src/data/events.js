@@ -56,7 +56,7 @@ Please note. Neither the speaker nor Notts Dev Workshop are responsible for any 
         `
         ,
         links: {
-          web: 'www.pjgcreations.co.uk',
+          web: 'http://pjgcreations.co.uk',
           facebook: 'PJGCreations',
           twitter: 'PJGCreations',
           linkedin: 'in/pjgcreations/'
