@@ -17,6 +17,52 @@
 // -----------------------------------------------------------------------------
 export default [
   {
+    date: '2017-03-06',
+    time: '6:00pm',
+    title: 'The Dev Star with Martin Beeby',
+    link: 'the-dev-star',
+    location: 'unidays_nottingham',
+    // attachment: './attachments.zip',
+    summary: `A mission based workshop where we use Microsevices to defeat an Alien warship. 
+    `,
+    description: `In this workshop you will work together in squads to complete the mission – becoming the Dev Star.
+Choose your platform space fighter of choice (Node.js, Java or PHP) and develop and deploy cloud native microservices that will help defeat the Alien War Ship.
+* You will learn how to build, manage and deploy cloud native microservices.
+* You will learn how to manage the source control, continuous integration and continuous deployment of your microservices in a DevOps manner.
+* You will explore and perform actions related to scaling and operating your microservices.
+* You will use your creativity and team play to develop features to your microservices that will help your team win!
+    
+    RECOMMENDATIONS DEPENDING ON LANGUAGE:
+    Java: Maven and JDK installed
+    Node.js: NPM (Node Package Manager) installed
+    PHP: Apache web server and PHP installed
+    
+    We will be deploying code into Oracle cloud but no signup will be required. Martin will bring along provisioned accounts for the workshop.
+    `,
+    what_you_will_need: `Laptop. Any IDE or code editor with Git support.
+    Familiarity with any of the following coding languages: Java, PHP or Node.js.
+    `,
+    links: {
+      title: 'The Dev Star with Martin Beeby',
+      meetup: 'https://www.meetup.com/Notts-Dev-Workshop/events/245555920/'
+    },
+    speakers: [
+      {
+        name: 'Martin Beeby ',
+        avatar: '/images/speakers/Martin_Beeby.jpg',
+        // quote: 'To be or not to be',
+        bio: `Martin Beeby is a Developer Evangelist at Oracle. Martin has been developing since he was 16 and over the past 19 years has worked on projects with many Major brands. Prior to joining Oracle Martin worked at Microsoft as a developer and evangelist for 8 years. Martin has written articles for, and been featured in, NET Magazine, ZDNet, NOUPE, SitePoint, TutsPlus and Channel 9. 
+        `
+        ,
+        links: {
+          facebook: 'thebeebsuk',
+          twitter: 'thebeebs',
+          linkedin: 'in/thebeebs/'
+        }
+      }
+    ]
+  },
+  {
     date: '2017-02-06',
     time: '6:00pm',
     title: 'Azure IoT Hubs, Raspberry Pi and Node.js',
