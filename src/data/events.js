@@ -17,6 +17,39 @@
 // -----------------------------------------------------------------------------
 export default [
   {
+    date: '2017-04-03',
+    time: '6:00pm',
+    title: 'Microservices in .NET Core',
+    link: 'microservices_dotnet_Core',
+    location: 'unidays_nottingham',
+    // attachment: './attachments.zip',
+    summary: ` In this workshop, Ian Cooper will guide you through creating microservices in .NET Core, from the first lines of code to deployment to Docker containers running Linux. 
+    `,
+    description: `This workshop is hands-on, and the intent will be to walk you through a typical .NET core Microservices stack. From exposing an HTTP API through inter-service messaging over MoM to running in Docker, you will discover what you need to know to build a Cloud Native application in .NET. We'll assist with repository code for items such as UI for your API, so that you can have a full-running application by the end of the session, that you can take home and use as a reference.
+    `,
+    what_you_will_need: `You will need to be able to edit C# code, and need an editor such as Code, Rider, or Visual Studio. The examples use Docker so you should be able to run Docker on your laptop (Docker for Windows, Docker for Mac, or Docker Toolbox). It will not be possible to fix Docker issues during the workshop, so you should make sure that you at least have the "Hello World" Docker container running:[Get Started, Part 1: Orientation and setup](https://docs.docker.com/get-started/#test-docker-installation) 
+    `,
+    links: {
+      title: 'Microservices in .NET Core',
+      meetup: ''
+    },
+    speakers: [
+      {
+        name: 'Ian Cooper',
+        avatar: '/images/speakers/ian-cooper.jpg',
+        // quote: 'To be or not to be',
+        bio: `Polyglot Coding Architect in London, founder of #ldnug, speaker, tabletop gamer, geek. Tattooed, pierced, and bearded. The 'guv' on @BrighterCommand
+        `
+        ,
+        links: {
+          facebook: 'ian.hammond.cooper',
+          twitter: 'ICooper',
+          linkedin: 'in/ian-cooper-2b059b/'
+        }
+      }
+    ]
+  },
+  {
     date: '2017-03-06',
     time: '6:00pm',
     title: 'The Dev Star with Martin Beeby',
