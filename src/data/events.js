@@ -31,7 +31,7 @@ export default [
     `,
     links: {
       title: 'Microservices in .NET Core',
-      meetup: ''
+      meetup: 'https://www.meetup.com/Notts-Dev-Workshop/events/248641787/'
     },
     speakers: [
       {
